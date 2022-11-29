@@ -1,0 +1,21 @@
+# Maintainer: Barnabé <barnabedikartola@gmail.com>
+
+pkgname=biglinux-skel-lxqt
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+pkgdesc="Skel for BigLinux Lxqt"
+arch=('any')
+url="https://github.com/biglinux/$pkgname"
+license=('GPL3')
+# depends=('')
+provides=("$pkgname")
+replaces=('big-skel')
+source=("git+${url}.git")
+sha256sums=('SKIP')
+
+bigskel=$(pacman -Ss pacman -Ss biglinux-skel- | awk -F'[\/ ]' '{print $2}')
+conflicts=("$bigskel" 'big-skel')
+
+package() {
+    cp -r "${srcdir}/${pkgname}/etc/" "${pkgdir}/"
+}
