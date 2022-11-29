@@ -13,7 +13,7 @@ replaces=('big-skel')
 source=("git+${url}.git")
 sha256sums=('SKIP')
 
-bigskel=$(pacman -Ss biglinux-skel- | awk -F'[\/ ]' '{print $2}')
+bigskel=$(pacman -Ss biglinux-skel- | awk -F'[/ ]' '{print $2}')
 conflicts=("$bigskel" 'big-skel')
 
 package() {
