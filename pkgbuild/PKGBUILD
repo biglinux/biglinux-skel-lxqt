@@ -3,7 +3,7 @@
 pkgname=biglinux-skel-lxqt
 pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
-pkgdesc="Skel for BigLinux Lxqt"
+pkgdesc="Skel for BigLinux Community LXQt"
 arch=('any')
 url="https://github.com/biglinux/$pkgname"
 license=('GPL3')
