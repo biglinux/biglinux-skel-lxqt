@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = lightdm
+
+[Action]
+Description = BigLinux LIGHTDM Greeter
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/big-lightdm
