@@ -1,4 +1,0 @@
-#!/bin/sh
-
-rm /etc/lightdm/lightdm-webkit2-greeter.conf
-sudo cp /etc/lightdm/big-lightdm-webkit2-greeter.conf  /etc/lightdm/lightdm-webkit2-greeter.conf

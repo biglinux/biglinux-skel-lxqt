@@ -1,4 +1,0 @@
-#!/bin/sh
-
-rm /etc/lightdm/lightdm.conf
-sudo cp /etc/lightdm/big-lightdm.conf  /etc/lightdm/lightdm.conf
