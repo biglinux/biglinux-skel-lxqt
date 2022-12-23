@@ -1,0 +1,17 @@
+[Colors]
+ConstantsFontsColor=255,255,255
+ForeColor=255,255,255
+FunctionFontsColor=255,255,255
+HexFontsColor=255,255,255
+MemoryFontsColor=255,255,255
+NumberFontsColor=255,255,255
+OperationFontsColor=255,255,255
+StatFontsColor=255,255,255
+
+[Font]
+ButtonFont=Roboto,12,-1,5,50,0,0,0,0,0
+DisplayFont=Roboto,15,-1,5,50,0,0,0,0,0
+HistoryFont=Roboto,11,-1,5,50,0,0,0,0,0
+
+[Precision]
+precision=20
