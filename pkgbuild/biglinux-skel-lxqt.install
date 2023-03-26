@@ -13,9 +13,9 @@ post_install() {
 bash /usr/share/libalpm/scripts/big-lightdm-lxqt
 
 ##descobrir o nome do usuario
-#who=$(who | awk '{ print $1 }' | head -n 1)
-#rsync -Caz /etc/skel/ /home/$who/
-#chown $who:$who -R /home/$who/
+who=$(who | awk '{ print $1 }' | head -n 1)
+rsync -Caz /etc/skel/ /home/$who/
+chown $who:$who -R /home/$who/
 #yad --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
 #        --align=center \
 #        --field=$"<b>Necessario reiniciar o sistema para aplicar as mudanças.</b>
