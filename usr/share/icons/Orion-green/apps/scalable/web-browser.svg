@@ -1,0 +1,59 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="a" x1="7.937" x2="7.937" y1="15.081" y2="1.852" gradientTransform="translate(-.13198 -.12398)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5e81ac" offset="0"/>
+   <stop stop-color="#88c0d0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="b" x1="30" x2="30" y1="17" y2="71" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#2e3440" offset="0"/>
+   <stop stop-color="#2e3440" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <filter id="c" x="-.060712" y="-.059305" width="1.1214" height="1.1186" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="16.044"/>
+  </filter>
+  <filter id="filter1178" x="-.047999" y="-.047999" width="1.096" height="1.096" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.30691668"/>
+  </filter>
+ </defs>
+ <g transform="translate(-.00025546 -.11386)">
+  <rect transform="matrix(.99138 0 0 1 .072989 .0019055)" x=".79375" y=".90545" width="15.346" height="15.346" rx="3.0526" ry="3.0526" fill="#000000" filter="url(#filter1178)" opacity=".15" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2489" style="mix-blend-mode:normal"/>
+ </g>
+ <rect x=".92602" y=".92602" width="15.081" height="15.081" rx="3.0001" ry="3.0001" fill="url(#a)"/>
+ <path class="shp40" transform="translate(-.163 -.18) scale(.01687)" d="m479.01 455.95 110.34 110.34 284.51-363.27zM239.63 852.3l349.74-286.01-110.34-110.34z" filter="url(#c)" opacity=".35"/>
+ <g transform="translate(-.00049983 .0004998)">
+  <path transform="scale(.26458)" d="M 32,13 28.041,28.041 13,32 28.041,35.959 32,51 35.959,35.959 51,32 35.959,28.041 Z" fill="url(#b)" opacity=".1"/>
+  <g stroke-width="2.262">
+   <path class="shp40" d="m7.599 7.54 1.861 1.862 4.546-6.408zm-4.546 6.408 6.408-4.546-1.862-1.862z" fill="#bf616a"/>
+   <path d="m7.6 7.54-4.546 6.408 6.406-4.546-1.861-1.862z" fill="#eceff4"/>
+   <path d="m14.006 2.996-10.953 10.952 6.408-4.546 4.544-6.406z" fill="#2e3440" opacity=".25"/>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round">
+   <g fill="#eceff4" stroke-width="1.159">
+    <rect x="8.334" y="1.587" width=".265" height="1.587" rx=".132" ry=".132"/>
+    <rect x="8.334" y="13.758" width=".265" height="1.587" rx=".132" ry=".132"/>
+    <rect transform="rotate(90)" x="8.334" y="-15.346" width=".265" height="1.587" rx=".132" ry=".132"/>
+    <rect transform="rotate(90)" x="8.334" y="-3.175" width=".265" height="1.587" rx=".132" ry=".132"/>
+    <rect transform="rotate(135)" x="-.132" y="-18.852" width=".265" height="1.587" rx=".132" ry=".132"/>
+    <rect transform="rotate(135)" x="-.132" y="-6.682" width=".265" height="1.587" rx=".132" ry=".132"/>
+   </g>
+   <g fill="#e5e9f0" stroke-width=".947">
+    <rect transform="rotate(30)" x="11.433" y="-3.78" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(30)" x="11.433" y="8.92" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(60)" x="11.433" y="-9.978" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(60)" x="11.433" y="2.722" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(105)" x="5.854" y="-17.248" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(105)" x="5.854" y="-4.549" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(120)" x="2.967" y="-18.444" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(120)" x="2.967" y="-5.745" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(150)" x="-3.231" y="-18.444" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(150)" x="-3.231" y="-5.745" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(165)" x="-6.119" y="-17.248" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(165)" x="-6.119" y="-4.549" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(195)" x="-10.502" y="-12.866" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(195)" x="-10.502" y="-.166" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(255)" x="-10.502" y="-.892" width=".265" height="1.058" rx=".132" ry=".132"/>
+    <rect transform="rotate(255)" x="-10.502" y="11.807" width=".265" height="1.058" rx=".132" ry=".132"/>
+   </g>
+  </g>
+ </g>
+</svg>
