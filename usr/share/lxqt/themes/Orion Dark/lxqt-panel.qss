@@ -96,6 +96,7 @@ QMenu::item:selected:disabled {
 
 QMenu::right-arrow {
     image: url(right-arrow.svg);
+    width: 12px;
 }
 
 /* menu headers/titles of the panel context menu */
