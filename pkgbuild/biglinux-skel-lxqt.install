@@ -10,7 +10,7 @@
 ## arg 1:  the new package version
 post_install() {
 
-bash /usr/share/libalpm/scripts/big-lightdm-lxqt
+#bash /usr/share/libalpm/scripts/big-lightdm-lxqt
 
 ##descobrir o nome do usuario
 #who=$(who | awk '{ print $1 }' | head -n 1)
