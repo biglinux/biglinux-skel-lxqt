@@ -1,2 +1,2 @@
-#!/bin/sh
+#!/bin/bash
 sed -i 's|background=.*|background=/usr/share/wallpapers/BigCommunity-lxqt-logo.png|' /etc/lightdm/slick-greeter.conf

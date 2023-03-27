@@ -33,3 +33,9 @@ package() {
         cp -r "${InternalDir}/opt" "${pkgdir}/"
     fi
 }
+
+post_install() {
+
+    bash /usr/share/libalpm/scripts/big-lightdm-lxqt
+
+}
