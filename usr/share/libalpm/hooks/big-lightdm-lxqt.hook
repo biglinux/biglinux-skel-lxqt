@@ -3,6 +3,7 @@ Type = Package
 Operation = Install
 Operation = Upgrade
 Target = lightdm-slick-biglinux-greeter
+Target = biglinux-skel-lxqt
 
 [Action]
 Description = Troca Wallpaper do Greeter
