@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = lightdm-slick-biglinux-greeter
+
+[Action]
+Description = Troca Wallpaper do Greeter
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/big-lightdm-lxqt
