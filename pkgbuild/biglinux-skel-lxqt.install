@@ -1,0 +1,41 @@
+# This is a default template for a post-install scriptlet.
+# Uncomment only required functions and remove any functions
+# you don't need (and this header).
+
+## arg 1:  the new package version
+#pre_install() {
+	# do something here
+#}
+
+## arg 1:  the new package version
+#post_install() {
+
+#bash /usr/share/libalpm/scripts/big-lightdm-lxqt
+
+#rsync skel > home
+# users=$(eval getent passwd {$(awk '/^UID_MIN/ {print $2}' /etc/login.defs)..$(awk '/^UID_MAX/ {print $2}' /etc/login.defs)} | cut -d: -f1)
+# for i in ${users[@]}; do 
+# 	rsync -Cazog --chown=$i:$i /etc/skel/ /home/$i/
+# done
+
+#}
+
+## arg 2:  the old package version
+#pre_upgrade() {
+	# do something here
+#}
+
+## arg 2:  the old package version
+#post_upgrade() {
+#	post_install
+#}
+
+## arg 1:  the old package version
+#pre_remove() {
+	# do something here
+#}
+
+## arg 1:  the old package version
+#post_remove() {
+	# do something here
+#}

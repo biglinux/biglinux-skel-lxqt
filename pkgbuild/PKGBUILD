@@ -1,0 +1,41 @@
+# Maintainer: Barnabé <barnabedikartola@gmail.com>
+
+pkgname=biglinux-skel-lxqt
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+pkgdesc="Skel for BigLinux Community LXQt"
+arch=('any')
+url="https://github.com/biglinux/$pkgname"
+license=('GPL3')
+# depends=('')
+conflicts=('big-skel')
+provides=("$pkgname")
+source=("git+${url}.git")
+sha256sums=('SKIP')
+if [ -e "${pkgname}.install" ];then
+    install=${pkgname}.install
+fi
+
+package() {
+
+    InternalDir="${srcdir}/${pkgname}"
+
+    # Copy files
+    if [ -d "${InternalDir}/usr" ]; then
+        cp -r "${InternalDir}/usr" "${pkgdir}/"
+    fi
+
+    if [ -d "${InternalDir}/etc" ]; then
+        cp -r "${InternalDir}/etc" "${pkgdir}/"
+    fi
+
+    if [ -d "${InternalDir}/opt" ]; then
+        cp -r "${InternalDir}/opt" "${pkgdir}/"
+    fi
+}
+
+post_install() {
+
+    bash /usr/share/libalpm/scripts/big-lightdm-lxqt
+
+}
