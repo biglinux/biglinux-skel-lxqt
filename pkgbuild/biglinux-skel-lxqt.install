@@ -8,27 +8,35 @@
 #}
 
 ## arg 1:  the new package version
-#post_install() {
+post_install() {
 
-#bash /usr/share/libalpm/scripts/big-lightdm-lxqt
+bash /usr/share/libalpm/scripts/big-lightdm-lxqt
 
-#rsync skel > home
-# users=$(eval getent passwd {$(awk '/^UID_MIN/ {print $2}' /etc/login.defs)..$(awk '/^UID_MAX/ {print $2}' /etc/login.defs)} | cut -d: -f1)
-# for i in ${users[@]}; do 
-# 	rsync -Cazog --chown=$i:$i /etc/skel/ /home/$i/
-# done
+##descobrir o nome do usuario
+#who=$(who | awk '{ print $1 }' | head -n 1)
+#rsync -Caz /etc/skel/ /home/$who/
+#chown $who:$who -R /home/$who/
+#yad --image=emblem-warning --image-on-top --form --width=500 --height=100 --fixed \
+#        --align=center \
+#        --field=$"<b>Necessario reiniciar o sistema para aplicar as mudanças.</b>
+#        :LBL" \
+#        --button=$" Reiniciar":0 \
+#        --center --on-top --borders=20 --title=$"Atualização de Skel" \
+#        --window-icon=emblem-warning
+#        if [ "$?" = "0" ];then
+#            reboot
+#        fi
 
-#}
-
+}
 ## arg 2:  the old package version
 #pre_upgrade() {
 	# do something here
 #}
 
 ## arg 2:  the old package version
-#post_upgrade() {
-#	post_install
-#}
+post_upgrade() {
+	post_install
+}
 
 ## arg 1:  the old package version
 #pre_remove() {
