@@ -338,7 +338,7 @@ VolumePopup  > QSlider::sub-page:vertical {
     padding-top: 3px; /* this influences downwards shift of icons */
     border-top: 3px solid transparent;
     color: #939597;
-     width: 18px;
+    width: 18px;
 }
 
 #LXQtMountPlugin QToolButton:hover{
