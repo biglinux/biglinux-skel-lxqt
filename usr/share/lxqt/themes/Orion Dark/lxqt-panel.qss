@@ -232,7 +232,7 @@ QToolButton#MainMenu:hover {
 
 #VolumePlugin QToolButton {
     margin: 3px;
-    padding-top: 1px;
+    padding-top: 3px;
     border-top: 3px solid transparent;
     color: #939597;
 }
@@ -333,11 +333,12 @@ VolumePopup  > QSlider::sub-page:vertical {
  */
 
 #LXQtMountPlugin QToolButton{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    padding-top: 0; /* this influences downwards shift of icons */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 3px; /* this influences downwards shift of icons */
     border-top: 3px solid transparent;
     color: #939597;
+     width: 18px;
 }
 
 #LXQtMountPlugin QToolButton:hover{
@@ -450,7 +451,7 @@ VolumePopup  > QSlider::sub-page:vertical {
    resetting stuff in StatusNotifierButton definitions below will
    keep stylings specific to the "+" button */
 #StatusNotifier > QToolButton {
-    padding-top: 0;
+    padding-top: 3px;
     margin: 3px;
     font-weight: bold;
     color: #939597;
@@ -471,9 +472,10 @@ VolumePopup  > QSlider::sub-page:vertical {
 
 #StatusNotifier StatusNotifierButton {
     border: none;
+    width: 15px;
     border-top: 3px solid transparent;
     border-radius: 0;
-    padding-top: 0; /* this influences downwards shift of icons */
+    padding-top: 0px; /* this influences downwards shift of icons */
     margin: 3px;
 }
 
