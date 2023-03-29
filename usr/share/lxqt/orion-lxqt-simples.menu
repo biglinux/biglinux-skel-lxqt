@@ -162,13 +162,25 @@
 	<!-- WebApps -->
 	<Menu>
 		<Name>WebApps</Name>
-		<Directory>lxqt-webapps.directory</Directory>
+		<Directory>web-apps.directory</Directory>
 		<Include>
 			<And>
 				<Category>Webapps</Category>
 			</And>
 		</Include>
 		</Menu> <!-- End WebApps -->
+
+	<!-- Google Menu -->
+    <Menu>
+        <Name>Google</Name>
+        <Directory>google-apps.directory</Directory>
+        <Include>
+            <And>
+                <Category>Google</Category>
+            </And>
+        </Include>
+    </Menu>
+</Menu>
 
 	<!-- Settings -->
 	<Menu>
