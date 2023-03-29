@@ -159,6 +159,17 @@
 		</Include>
 		</Menu> <!-- End Other -->
 
+	<!-- WebApps -->
+	<Menu>
+		<Name>WebApps</Name>
+		<Directory>lxqt-webapps.directory</Directory>
+		<Include>
+			<And>
+				<Category>Webapps</Category>
+			</And>
+		</Include>
+		</Menu> <!-- End WebApps -->
+
 	<!-- Settings -->
 	<Menu>
 		<Name>DesktopSettings</Name>
