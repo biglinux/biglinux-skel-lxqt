@@ -179,8 +179,8 @@
                 <Category>Google</Category>
             </And>
         </Include>
-    </Menu>
-</Menu> <!-- End Google Menu -->
+    </Menu> <!-- End Google Menu -->
+</Menu> 
 
 	<!-- Settings -->
 	<Menu>
