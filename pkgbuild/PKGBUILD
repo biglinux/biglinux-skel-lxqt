@@ -32,9 +32,4 @@ package() {
     if [ -d "${InternalDir}/opt" ]; then
         cp -r "${InternalDir}/opt" "${pkgdir}/"
     fi
-<<<<<<< HEAD
-=======
-
-    bash /usr/share/libalpm/scripts/big-lightdm-lxqt
->>>>>>> 2ffa6aec (auste)
 }
